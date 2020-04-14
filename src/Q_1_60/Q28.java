@@ -4,6 +4,7 @@ public class Q28 {
     //Given the code fragment:
 
     int [] array ={1, 2, 3, 4, 5};
+    
     /*
     And given the requirements:
     1.Process all the elements of the array in the order of entry.

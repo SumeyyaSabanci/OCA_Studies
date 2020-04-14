@@ -5,6 +5,7 @@ public class Q52 {}
     class MarkList{
     int num ;
     public static void graceMarks(MarkList obj4){
+
         obj4.num += 10;
     }
 

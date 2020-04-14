@@ -16,3 +16,4 @@ public class Q36 {
 //    }
 //}
 // which code fragment, when inserted at line n1, enables the App class to print Equal?
+// if(str2.equals(str1.toLowerCase()))

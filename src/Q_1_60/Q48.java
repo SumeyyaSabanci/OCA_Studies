@@ -5,15 +5,15 @@ import java.util.List;
 
 public class Q48 {
     public static void main(String[] args) {
-        List colors = new ArrayList<>();
-        colors.add("green");
-        colors.add("blue");
-        colors.add("red");
-        colors.add("yellow");
-        colors.remove(2);
-        colors.add(3,"cyan");
-
-        System.out.println(colors);
+//        List colors = new ArrayList<>();
+//        colors.add("green");
+//        colors.add("blue");
+//        colors.add("red");
+//        colors.add("yellow");
+//        colors.remove(2);
+//        colors.add(3,"cyan");
+//
+//        System.out.println(colors);
 
 
 //Canvasta:
@@ -36,7 +36,7 @@ public class Q48 {
 //        colors.remove(2);
 //        colors.add(3,"cyan");
 //
-//        System.out.println(colors); green, red, yellow, cyan
+//        System.out.println(colors);
 
 
     }

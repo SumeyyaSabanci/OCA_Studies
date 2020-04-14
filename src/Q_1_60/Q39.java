@@ -9,32 +9,32 @@ public class Q39 {
         shirts[1][1] ="medium";
 
 //Which code fragment prints red: blue: small: medium?
-//A
-        for(int index = 1; index <2; index++){
-            for(int idx = 1; idx <2; idx++){
-                System.out.println(shirts[index][idx]+":");
-            }
-        }
-//B
-        for(int index = 0; index <2; ++index){
-            for(int idx = 0; idx <index; ++idx){
-                System.out.println(shirts[index][idx]+":");
-            }
-        }
+////A
+//        for(int index = 1; index <2; index++){
+//            for(int idx = 1; idx <2; idx++){
+//                System.out.print(shirts[index][idx]+":");
+//            }
+//        }
+////B
+//        for(int index = 0; index <2; ++index){
+//            for(int idx = 0; idx <index; ++idx){
+//                System.out.print(shirts[index][idx]+":");
+//            }
+//        }
 //C
         for(String [] c : shirts){
             for (String s : c){
-                System.out.println(s+":");
+                System.out.print(s+":");
             }
         }
-//D
-        for(int index = 0; index <=2; ){
-            for(int idx = 0; idx <=2; ){
-                System.out.println(shirts[index][idx]+":");
-                idx++;
-            }
-            index++;
-        }
+////D
+//        for(int index = 0; index <=2; ){
+//            for(int idx = 0; idx <=2; ){
+//                System.out.print(shirts[index][idx]+":");
+//                idx++;
+//            }
+//            index++;
+//        }
 
     }
 }
