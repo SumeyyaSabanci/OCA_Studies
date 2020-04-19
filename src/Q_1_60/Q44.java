@@ -10,7 +10,7 @@ class MyFile{
         System.out.println("Arg is "+ arg3);
     }
 }
-//and this output:
+// and this output:
 //              Arg is 2
 
 //Which command should you run to obtain this output?
@@ -28,4 +28,6 @@ class MyFile{
 //    String arg3 = args[3];
 //    System.out.println("Arg is "+ arg3);
 //}
+
+
 //Answer javaMyFile 1 3 2 2

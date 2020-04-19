@@ -5,7 +5,7 @@ public class Q47 {
         String[] strs = {"A", "B"};
         int idx = 0;
         for (String s : strs){
-            strs[idx].concat(" element "+idx);
+            strs[idx]= strs[idx].concat(" element "+idx);  //concat yapiyor ama initilaze yapmadigi icin etkilemez.
             idx++;
         }
         for (idx = 0; idx < strs.length; idx++){

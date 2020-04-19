@@ -6,17 +6,16 @@ package Q_85_127;
             int myNum = 0;
             try {
                 String myStr = str;
-                myNum = Integer.parseInt(myStr);
+                myNum = Integer.parseInt(myStr); //local
 
             } catch (NumberFormatException ne) {
                 System.err.println("Error");
             }
-            System.out.println(
-                    "myStr: " + myStr + ", myNum: " + myNum);
+            System.out.println("myStr: " + myStr + ", myNum: " + myNum);
         }
-                        public static void main (String [] args) {
-                    Q94 obj = new Q94 ();
-                    obj.doStuff ("9009") ;
+         public static void main (String [] args) {
+          Q94 obj = new Q94 ();
+          obj.doStuff ("9009") ;
 
 }
             }
@@ -44,7 +43,7 @@ package Q_85_127;
 //                    "myStr: " + myStr + ", myNum: " + myNum);
 //        }
 //        public static void main (String [] args) {
-//            Q94 obj = new Q94 ();
-//            obj.doStuff ("7007") ;
-
+//            Q94 obj = new Q94();
+//            obj.doStuff("7007");
+//        }}
 // Answer: 9009-7007

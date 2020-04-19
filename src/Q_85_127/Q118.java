@@ -12,15 +12,17 @@ public class Q118 {
         Answer:AD
         **********Seceneklerde variable flt ayniydi ama hata vermesin diye asagida numaralandirdim.
          */
-        //A.
+//A.
         float flt=100.00F;
-        //B.
+//B.
         float flt2=(float)1_11.00;
-        //C.
-      //  Float flt3=100.00;
-        //D.
-      //  double y1=203.22; float flt4=y1;
-        //E.
-        int y2=100;float flt5=(float)y2;
+//C.
+        //Float flt3=100.00;
+//D.
+//         double y1=203.22;
+//         float flt4=y1;
+//E.
+        int y2=100;
+        float flt5=(float)y2;
     }
 }

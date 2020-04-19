@@ -7,14 +7,15 @@ public class Q46 {
         int idx = 0;
         try{
             for(String n : names){
-                pwd[idx] = n.substring(2,6);
+                pwd[idx] = n.substring(2,6);  //ilk yazilan deger include ama son yazilan deger include olmaz substring de
                 idx++;
             }
         }
         catch (Exception e){
             System.out.println("Invalid Name");
+            e.printStackTrace(); //con
         }
-        for (String p : pwd){
+        for (String p : pwd){   //pwd[] = {omas, null, null}
             System.out.println(p);
         }
     }
@@ -65,8 +66,9 @@ public class Q46 {
 
 
    // Answer
-    //     omas
     //     Invalid Name
+    //     omas
+
 }
 
 

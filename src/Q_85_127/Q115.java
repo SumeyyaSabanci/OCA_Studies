@@ -13,7 +13,8 @@ class Equal {
         }
         boolean b1 = (str1.equals(str3));
         boolean b2 = (str1 == str3);
-        System.out.println(b1 + ", " + b2);
+
+       System.out.println(b1 + ", " + b2);
         /*
         What is the result?
         A.false,false

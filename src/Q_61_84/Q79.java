@@ -7,9 +7,9 @@ public class Q79 {
             System.out.print(arr[i] + " ");
             if (arr[i].equals("D")){
                 System.out.println("Work done");
-                break;
+                continue;
             }
-            continue;
+            break;
         }
     }
 }

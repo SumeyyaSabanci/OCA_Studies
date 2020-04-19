@@ -22,7 +22,7 @@ class A {
             System.out.println("C ");
         }
         public static void main(String[] args) {
-            C c = new C();
+            C c = new C(); //constructor run edilirken  parent to child class gider
         }
     }
     /*

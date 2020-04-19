@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q48 {
     public static void main(String[] args) {
-//        List colors = new ArrayList<>();
+//        List colors = new ArrayList<>();   //type eklenmiyorsa herhangi bir type yazabiliriz. //List<Object> //List<?> de olabilir
 //        colors.add("green");
 //        colors.add("blue");
 //        colors.add("red");

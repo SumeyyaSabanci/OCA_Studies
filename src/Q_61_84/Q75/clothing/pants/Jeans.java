@@ -1,7 +1,10 @@
 package Q_61_84.Q75.clothing.pants;
 
 // line n1
+//import Q_61_84.Q75.clothing.Shirt;
 import Q_61_84.Q75.clothing.Shirt;
+
+import static Q_61_84.Q75.clothing.Shirt.getColor;
 
 public class Jeans {
     public void matchShirt(){

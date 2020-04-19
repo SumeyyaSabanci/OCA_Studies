@@ -3,33 +3,27 @@ package Q_85_127;
 public class Q106{
 
 }
-//class Student {
-//    String name;
-//    public Student(String name){
-//        this.name = name;
-//    }
-//}
-//
-// class Test {
-//    public static void main(String[] args) {
-//        Student[] students = new Student[3];
-//        students[1] = new Student("Richard");
-//        students[2] = new Student("Donald");
-//
-//        for (Student s: students){
-//            System.out.println("" + s.name);
-//        }
-//    }
-//}
-    /*
-        What is the result?
-        A. nullRichardDonald
-        B. RichardDonald
-        C. Compilation fails.
-        D. AnArrayIndexOutOfBoundsExceptionis thrown at runtime.
-        E. ANullPointerExceptionis thrown at runtime.
-        Answer: A
-     */
 
+class Test2 {
+    public static void main(String[] args) {
+        Test2 ts = new Test2();
+        System.out.println(isAvailable+"");
+        isAvailable = ts.doStuff();
+        System.out.println(isAvailable);
 
+    }
+    public static boolean doStuff(){
+        return !isAvailable;
+    }
+    static boolean isAvailable = false;
+}
+/*
+What is the result?
+A.	Compilation fails.
+B.	false true
+C.	true false
+D.	true true
+E.	false false
+Answer: B
 
+ */

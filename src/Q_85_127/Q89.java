@@ -7,7 +7,6 @@ public class Q89 {
             System.out.print(--x);
         }
     }
-
     public static boolean isAvailable(int x) {
         return --x > 0 ? true : false;
     }

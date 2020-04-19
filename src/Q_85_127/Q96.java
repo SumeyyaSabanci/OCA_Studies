@@ -2,7 +2,7 @@ package Q_85_127;
 
 
     interface Exportable {
-        void export();
+        void export();  //interface yazilmasada method  public abstract export tur.
     }
         class Tool implements Exportable {
             public void export() {

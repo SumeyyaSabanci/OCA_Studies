@@ -1,9 +1,9 @@
 package Q_85_127;
 
 import java.io.IOException;
-
 class MyException extends RuntimeException {}
-    public class Q85 {
+public class Q85 {
+
         public static void main (String[] args) {
             try {
                 method1();
@@ -35,7 +35,6 @@ class MyException extends RuntimeException {}
 
 
 //second way:
-//
 //class MyException extends RuntimeException {}
 //public class Q85 {
 //    public static void main (String[] args) {
@@ -57,15 +56,16 @@ class MyException extends RuntimeException {}
 //
 //    }
 //}
+
 // Answer: B
-
-
+//
+//
 //        third way:
 //         catch (RuntimeException re) {
-////            System.out.print("I");
-////        }
-////
-////    }
-////}
+//            System.out.print("I");
+//        }
+//
+//    }
+//}
 // Answer: "I"
 

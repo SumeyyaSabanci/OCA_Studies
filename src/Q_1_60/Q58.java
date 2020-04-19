@@ -6,7 +6,9 @@ public class Q58 {
 
     class MainTest{
         public static void main(String[] args) {
-            System.out.println("String main "+ args[0]);
+            String [] abc = new String[1];
+            abc[0] = "1 2 3";
+            System.out.println("String main "+ abc[0]);
 
         }
 

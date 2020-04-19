@@ -1,38 +1,28 @@
-package Q_85_127;//class A {
-//    public void test(){
-//        System.out.println("A");
-//    }
-//}
-//class B extends A {
-//    public void test(){
-//        System.out.println("B");
-//    }
-//}
-//class C extends A {
-//    public void test(){
-//        System.out.println("C");
-//    }
-
+package Q_85_127;
 public class Q107 {
-
-
-    public static void main(String[] args) {
-//        A b1 = new A ();
-//        A b2 = new C ();
-//        b1 = (A) b2;
-//        A b3 = (B) b2;
-//        A b3 = (B) b2;
-//        b1.test();
-//        b3.test();
-    }
 }
-    /*
-         What is the result?
-        A. AB
-        B. AC
-        C. CC
-        D. A ClassCastException is thrown only at line n1.
-        E. A ClassCastException is thrown only at line n2.
-        Answer: E
-     */
-
+//class Test{
+//    int x, y;
+//    public Test(int x, int y){
+//        initialize(x,y);
+//    }
+//    public void initialize(int x, int y){
+//        this.x = x*x;
+//        this.y = y*y;
+//
+//    }
+//
+//    public static void main(String[] args) {
+//        int x = 3, y = 5;
+//        Test obj = new Test(x,y);
+//        System.out.println(x+""+y);
+//    }
+//}
+/*
+What is the result?
+A.	Compilation fails.
+B.	3 5
+C.	0 0
+D.	9 25
+Answer: B
+ */

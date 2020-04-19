@@ -10,7 +10,7 @@ public class Q40 {
         List<String> arrList = new ArrayList<>(Arrays.asList(arr));
         if(arrList.removeIf( s-> { //s degeri
            System.out.print(s); // s array listing tamamini yazdirir
-            return s.length()<=2;  //sonra da
+            return s.length()<=2;  //sonra da etmek istemis
         })){
             System.out.print(" removed");
        }

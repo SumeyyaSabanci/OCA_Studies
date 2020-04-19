@@ -7,7 +7,9 @@ import Q_61_84.Q83.p1.A;
 
 public class B {
     public void doStuff(){
+
         A b= new A();
+
     }
 }
 

@@ -2,7 +2,8 @@ package Q_61_84.Q72;
 
 public class FieldInit {
     // What is the result?
-    Character c;
+    Character c;  //if it is Character it gives null wrapper class oldugu icin
+ //   char c; //if it is char it gives empty
     boolean b;
     float f;
     void printAll(){

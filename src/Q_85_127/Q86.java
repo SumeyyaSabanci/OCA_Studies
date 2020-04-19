@@ -1,6 +1,6 @@
 package Q_85_127;
 
-
+public class Q86{}
 
 
     class Vehicle {
@@ -28,7 +28,6 @@ package Q_85_127;
 
                   public String toString() {
                       return super.x + ":" + this.y;
-
                   }
 
                   public static void main(String[] args) {
@@ -37,7 +36,7 @@ package Q_85_127;
                   }
               }
 
-              //What is the result?
+//What is the result?
 //A. Compilation fails at line n2.
 // B. Compilation fails at line n1.
 // C. 20:20

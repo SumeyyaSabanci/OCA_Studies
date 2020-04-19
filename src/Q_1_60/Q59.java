@@ -8,7 +8,7 @@ public class Q59 {
 
         // A
 //        for (int i : intArr){
-//            System.out.println(intArr[i] +" ");//--> gives ArrayIndexOutOfBoundsException
+//            System.out.println(intArr[i] +" ");  we can not use intArr[i] //--> gives ArrayIndexOutOfBoundsException
 //        }
 
         // B

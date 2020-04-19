@@ -2,18 +2,21 @@ package Q_1_60.Q57;
 
 
 
-//class MyString {
-//    String msg;
-//    MyString(String msg){
-//        this.msg =msg;
-//    }
-//}
-//public class Test {
-//    public static void main(String[] args) {
-//        System.out.println("Hello "+ new StringBuilder("Java SE 8"));
-//        System.out.println("Hello "+ new MyString("Java SE 8"));
-//    }
-//}
+class MyString {
+    String msg;
+    MyString(String msg){
+        this.msg =msg;
+
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        System.out.println("Hello "+ new StringBuilder("Java SE 8"));
+        System.out.println("Hello "+ new MyString("Java SE 8").msg);
+
+
+    }
+}
 /*
 
 NOT: Q49_60.Q57 --> soruda p1 yani package name olarak verilmis
