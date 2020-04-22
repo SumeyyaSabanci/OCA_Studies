@@ -24,6 +24,7 @@ public class Q148 {
 			for(char g:gr) {
 				System.out.print(g+" ");
 			}
+			System.out.println();
 		}
 		
 	}

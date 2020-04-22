@@ -1,23 +1,31 @@
 package Q_157_181;
 
-public class Q170 {
 
-    public static void main(String[] args) {
+ class MyString {
+    String msg;
+    int a;
+//    public String test(){
+//
+//        return "test";
+//    }
 
-        System.out.println("Hello "+ new StringBuilder(("Java SE 8")));
-        System.out.println("Hello "+ new MyString("Java SE 8").msg);
-
-    }
-
-    static class MyString {
-        String msg;
-
-        MyString(String msg) {
-            this.msg = msg;
-        }
+    MyString(String msg) {
+        this.msg = msg;
     }
 }
+public class Q170 {
+    public static void main(String[] args) {
 
+        System.out.println("Hello " + new StringBuilder("Java SE 8"));
+        System.out.println("Hello " + new MyString("Java SE 8").msg);
+
+//bizim example
+//        System.out.println("Hello "+ new MyString("Java SE 8").test());
+//    }
+
+
+    }
+}
 /*
 A) Hello Java SE 8
    Hello Java SE 8

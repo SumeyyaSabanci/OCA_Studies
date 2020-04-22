@@ -7,8 +7,9 @@ public class Q104{
         ArrayList myList = new ArrayList();
         String[] myArray;
         try{
-            while(true){
+            while(true){                  //infinite doner. Memoriden kaynaklanan mainde bir hata olusur. Memoryoverflow da hata yani.
                 myList.add("My String");
+//                System.out.println("While loop");
             }
         }catch (RuntimeException re){
             System.out.println("Cought a RuntimeException");
@@ -17,6 +18,7 @@ public class Q104{
         }
         System.out.println("Ready to use");
     }
+    //Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 }
 /*

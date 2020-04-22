@@ -1,21 +1,21 @@
 package Q_157_181.Q162;
 
 public class App {
-/*
-	int count;
 
-	public static void displayMsg() {
-		count++;     // line n1
-		System.out.println("Welcome " + "Visit Count: " + count); // line n2
-	}
+//	int count;
+//
+//	public static void displayMsg() {
+//		count++;     // line n1
+//		System.out.println("Welcome " + "Visit Count: " + count); // line n2
+//	}
+//
+//	public static void main(String[] args) {
+//		App.displayMsg();   // line n3
+//		App.displayMsg();   // line n4
+//
+//	}
 
-	public static void main(String[] args) {
-		App.displayMsg();   // line n3
-		App.displayMsg();   // line n4
 
-	}
-
- */
 }
 	/*
 			 What is the result?

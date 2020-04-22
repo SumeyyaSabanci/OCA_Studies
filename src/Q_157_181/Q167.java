@@ -1,5 +1,6 @@
 package Q_157_181;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -10,7 +11,15 @@ public static void main(String[] args) {
 	dt.plusDays(30);
 	dt.plusMonths(1);
 	System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
-	
+
+
+	/* LocalDateTime mi LocalDate mi dikkat edelim
+	LocalDate dt =LocalDate.of(2014,7,13);
+	dt.plusDays(30);
+	dt.plusMonths(1);
+	System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
+
+	 */
 	/*
 	 What is the result?  ( Answer C --> 2014-07-31 )
 	 

@@ -11,8 +11,9 @@ public class Q178 {
             ans = 0;                                    //line1
         } catch (Exception e){
             System.out.println("Invalid calculation");
+         //   ans = 0;
         }
-        //System.out.println("Answer = "+ ans);           //line2
+     //   System.out.println("Answer = "+ ans);           //line2
     }
 }
 
@@ -23,5 +24,5 @@ B)  Invalid calculation
 C)  Compilation fails only at line n1.
 D)  Compilation fails only at line n2.
 E)  Compilation fails only at line n1 and n2.
-Answer: C
+Answer: D
  */

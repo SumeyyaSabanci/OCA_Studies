@@ -1,17 +1,34 @@
 package Q_157_181;
 
 
-public class Q168 {
-	/*
-	public static void main(String[] args) {
-		String[] arr= {"Hi", "How", "Are","You"};
-	List<String> arrList= new ArrayList<>(Arrays.asList(arr));
-	if (arrList.removeIf((String s) -> (return s.length() <=2;))) {
-		System.out.println(s + "removed");
-	}
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
+public class Q168 {
+
+	public static void main(String[] args) {
+
+	//bizim yazdigimiz
+//	if (arrList.removeIf(s ->{return s.length()<=2;})){
+//		System.out.println( + "removed");
+//	}
+
+//soruda bu sekilde:
+		String[] arr= {"Hi", "How", "Are","You"};
+		List<String> arrList= new ArrayList<>(Arrays.asList(arr));
+		if (arrList.removeIf((String s) ->{System.out.println(s + "removed");
+			return s.length()<=2;})){
+		}
+
+		//bizim yazdigimiz
+//	if (arrList.removeIf(s ->{return s.length()<=2;})){
+//		System.out.println( arrList+ "removed");
+//	}
+
+    }
 }
-	 */
+
 	/*
 	 
 		 What is the result?   Answer: A
@@ -31,4 +48,4 @@ public class Q168 {
 
 	
 
-}
+

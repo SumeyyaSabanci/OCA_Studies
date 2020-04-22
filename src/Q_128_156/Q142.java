@@ -1,28 +1,30 @@
 package Q_128_156;
 
 public class Q142 {
- }
+}
 
 
-interface Readable{
-        public void readBook();
-        public void setBookMark();
+interface Readable {
+    public void readBook();
+
+    public void setBookMark();
+}
+
+abstract class Book implements Readable {    //line n1
+    public void readBook() {
+        // line n2
     }
-    abstract class  Book implements  Readable{    //line n1
-        public void  readBook(){
-           // line n2
-        }
-        class EBook extends  Book {    //line n3
-            public void readBook() {
-//line 4
-            }
-        }
 
-            @Override
-            public void setBookMark() {
-
-            }
+    class EBook extends Book {    //line n3
+        public void readBook() {
         }
+        //line n4
+    }
+
+    @Override
+    public void setBookMark() {
+    }
+}
 
 
 /*

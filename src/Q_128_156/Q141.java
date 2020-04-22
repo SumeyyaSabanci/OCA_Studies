@@ -8,16 +8,18 @@ public class Q141 {
         boolean contract;
          double salary;
          Employee(){
+
              //line n1
          }
 
          public String toString(){
-             return name + ":" + contract+ ";" + salary;
+             return name + ":" + contract+ ":" + salary;
          }
 
         public static void main(String[] args) {
             Employee e = new Employee();
             //line n2
+
             System.out.print(e);
 
         }
@@ -43,9 +45,9 @@ Which two modifications, when made independently, enable the code to print Joe:t
   this.salary= new Double(100);
 
   D- Replace line n1 with;
-  name= "Joe';
- contract= True;
-  salary= 100.of;
+  name= "Joe";
+  contract= TRUE;
+  salary= 100.0f;
 
 E-Replace line n1 with;
 this("Joe" , true, 100);

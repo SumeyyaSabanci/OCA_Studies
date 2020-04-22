@@ -11,6 +11,7 @@ class Equal {
         for (String str : str2) {
             str3 = str3 + str;
         }
+       // str3 = str1; Boyle yaptigimizda ayni yere point yapar.
         boolean b1 = (str1.equals(str3));
         boolean b2 = (str1 == str3);
 

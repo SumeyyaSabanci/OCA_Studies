@@ -10,6 +10,18 @@ public static void main(String[] args) {
 	
 	System.out.println(d);
 
+	if(a<b){
+		if(a<c){
+			System.out.println(a);
+		}else if(b<c){
+			System.out.println(b);
+		}else{
+			System.out.println(c);
+		}
+	}else {
+		System.out.println(x);
+	}
+
 }
 /*
 		    What is the result?

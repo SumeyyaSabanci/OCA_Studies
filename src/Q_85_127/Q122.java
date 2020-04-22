@@ -16,7 +16,7 @@ B. 2012-01-30
 C. 2012-02-10 00:00
 D. A DateTimeException is thrown at runtime
 
-Answer: C
+Answer: B
 
  */
 

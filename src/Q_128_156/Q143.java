@@ -4,17 +4,18 @@ public class Q143{
 
 
  public static void main(String[] args) {
-        boolean a= new Boolean(Boolean.valueOf(args[0]));
+        boolean a= new Boolean(Boolean.valueOf(args[0])); //iki deger alir icine string ve boolean
         boolean b= new Boolean(args[1]);
         System.out.print(a +" "  + b);
     }
+
 }
 
 /*
 And given the commands:
 
 javac Test.java
-java Test 1 null
+java Test 1 null   ////butun sayilari ve null i  false olarak algiliyor
 
 What is the result?
  A. 1 null
@@ -23,7 +24,7 @@ C. false false
 D. true true
 E. A ClassCastException is thrown at runtime.
 
- Answer: D
+ Answer: C
 
  second version is same
 

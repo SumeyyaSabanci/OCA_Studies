@@ -1,5 +1,5 @@
 package Q_157_181.Q159;
-/*
+
 public class Employee {
 	private String name;
 	private int age;
@@ -13,7 +13,7 @@ public Employee (String name,int age) {
 
 	public Employee (String name,int age,int salary) {
 		setSalary (salary);
-		this(name,age);   //this üst satırda olursa hata vermez.
+//		this(name,age);   //this üst satırda olursa hata vermez.
 
 	}
 
@@ -47,4 +47,3 @@ public Employee (String name,int age) {
 		System.out.println(name +" : "+age+" : "+salary);
 	}
 }
-*/

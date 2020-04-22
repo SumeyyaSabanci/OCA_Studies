@@ -1,21 +1,22 @@
 package Q_85_127;
 
 public class Q111 {
+
+    public static void main(String[] args) {
+        //line n1
+      /*  switch (x) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+        }
+*/
+    }
 }
-//class Test {
-//    public static void main(String[] args) {
-//        //line n1
-//      /*  switch (x) {
-//            case 1:
-//                System.out.println("One");
-//                break;
-//            case 2:
-//                System.out.println("Two");
-//                break;
-//        }
-//*/
-//    }
-//}
+//CIBSS  ==> Char, Integer, Byte, String, Short u switch te kullanabiliriz
+// Boolean, long, float, double we can not use with
 
 /*
 *Which three code fragments can be independently inserted at line n1 to enable the code to print One?

@@ -2,7 +2,7 @@ package Q_157_181;
 
 public class Q181 {
     public static void main(String[] args) {
-        String ta = "A";
+        String ta = "A ";
         ta = ta.concat("B ");
         String tb = "C ";
         ta = ta.concat(tb);

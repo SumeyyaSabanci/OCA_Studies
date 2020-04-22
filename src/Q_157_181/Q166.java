@@ -1,5 +1,7 @@
 package Q_157_181;
 
+import java.sql.SQLOutput;
+
 class Planet {
 	public String name;
 	public int moons;
@@ -8,6 +10,9 @@ class Planet {
 		this.name = name;
 		this.moons = moons;
 	}
+//	public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
+//		return name+moons;
+//	}
 }
 public class Q166 {
 	

@@ -3,26 +3,37 @@ package Q_128_156;
 public class Q135 {
 }
 
-//abstract class Toy {
-//
-//        int price;
-//        //line n1
+abstract class Toy {
+
+        int price;
+        //line n1
+
+
+ //Which three code fragments are valid at line n1?
+
+
+ //   A.
+//    public static void insertToy(){
+//  //  code goes here
 //    }
 
-   // Which three code fragments are valid at line n1?
-
-    /*
-    A. public static void insertToy(){
-    code goes here
+////    B.
+// Toy getToy(){  //
+//    return new Toy();
+//}
+////    C.
+//    public void printToy();
+//
+///
+//    D.
+//    public int calculatePrice() {
+//        return price;
+//    }
     }
-    B. final Toy getToy(){
-    return new Toy();
-    }
-    C. public void printToy();
-    D. public int calculatePrice(){
-    return price;
-    }
-    E. public abstract int computeDiscount();
+////    E.
+//    public abstract int computeDiscount();
+//}
+/*
 
     A. Option A
 B. Option B
@@ -30,7 +41,7 @@ C. Option C
 D. Option D
 E. Option E
 
-Answer: CDE
+Answer: ADE
 
 version 2
 abstract class Toy{
@@ -53,7 +64,7 @@ abstract class Toy{
     }
     E. public abstract int computeDiscount();
 
- A. Option A
+A. Option A
 B. Option B
 C. Option C
 D. Option D

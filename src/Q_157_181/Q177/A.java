@@ -1,12 +1,14 @@
 package Q_157_181.Q177;
 
+import java.io.IOException;
+
 public class A {
     public void a(){}
     int a;
 }
-//class A {
-    //public void main (String fileName) throws IOException {}
-//}
+class C {
+    public void main (String fileName) throws IOException {}
+}
 
 /*
 A. Only the A.Java file compiles successfully.
