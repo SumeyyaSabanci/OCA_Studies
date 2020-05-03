@@ -1,19 +1,19 @@
 package Q_1_60.Q6;
 
 
-//class X {
-//    public void printFileContent() {
-//        /*code goes here */
-//        throw  new IOException();
-//    }
-//}
-//
-//public class Test {
-//    public static void main(String[] args) {
-//       X xobj = new X();
-//        xobj.printFileContent();
-//    }
-//}
+class X {
+    public void printFileContent() {
+        /*code goes here */
+        throw  new IOException();
+    }
+}
+
+public class Test8 {
+    public static void main(String[] args) {
+       X xobj = new X();
+        xobj.printFileContent();
+    }
+}
 /*
 Which two modifications should you make so that the code compiles successfully? (Choose two.)
 A.  Replace line 13 with:
