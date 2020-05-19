@@ -22,25 +22,26 @@ class B extends A{
     }
 
     public static void main(String[] args) {
-//        A b1= new A();
-//        A b2 = new C();
-//      //  A b3 = (B) b2;    //line n1
-//      b1= (A) b2;       //line n2
-//        b1.test();
-//     //   b3.test();
- int a =10;
- int b =0;
- int c =0;
- try{
-     c=a/b;
-     a=12;
-     c=a/b;
 
- }catch (ArithmeticException e){
-     System.out.println("Log "+e);
-     e.printStackTrace();
-     throw e;
- }
+        A b1= new A();
+        A b2 = new C();
+        A b3 = (B) b2;    //line n1
+        b1= (A) b2;       //line n2
+        b1.test();
+        b3.test();
+// int a =10;
+// int b =0;
+// int c =0;
+// try{
+//     c=a/b;
+//     a=12;
+//     c=a/b;
+//
+// }catch (ArithmeticException e){
+//     System.out.println("Log "+e);
+//     e.printStackTrace();
+//     throw e;
+// }
 
     }
 

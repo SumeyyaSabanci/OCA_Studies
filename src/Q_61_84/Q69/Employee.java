@@ -1,13 +1,14 @@
 package Q_61_84.Q69;
 
+
 public class Employee {
     private String name;
     private int age;
     private int salary;
 
-    public Employee(){
-
-    }
+//    public Employee(){
+//
+//    }
      public Employee(String name, int age) {
          setName(name);
          setAge(age);
@@ -21,23 +22,26 @@ public class Employee {
      public void setSalary(int salary) {
          this.salary = salary;
      }
-    public void setAge(int age) {
+     public void setAge(int age) {
         this.age = age;
     }
-
-    public void setName(String name) {
+     public void setName(String name) {
         this.name = name;
+    }
+
+    public void printDetails(){
+        System.out.println(name+ " : "+ age + " : "+ salary);
     }
 }
 class Test{
     public static void main(String[] args) {
-//        Employee e1 = new Employee(); //we need to create de
-//        Employee e2 = new Employee("Jack", 50);
-//        Employee e3 = new Employee("Chloe", 40, 5000);
-//
-//        e1.printDetails();
-//        e2.printDetails();
-//        e3.printDetails();
+     //   Employee e1 = new Employee(); //we need to create default consturacter
+        Employee e2 = new Employee("Jack", 50);
+        Employee e3 = new Employee("Chloe", 40, 5000);
+
+      //  e1.printDetails();
+        e2.printDetails();
+        e3.printDetails();
     }
 
 }

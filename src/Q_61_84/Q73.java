@@ -2,27 +2,27 @@ package Q_61_84;
 
 public class Q73 {
 }
-//class MyField {
+//class MyField2 {
 //        int x;
 //        int y;
-//public void doStuff(int x, int y){
-//        x = x;
-//        y = this.y;
+//        public void doStuff(int x, int y){
+//                x = x;
+//                y = this.y;
 //        }
-//public void display(){
-//        System.out.print(x + " " + y + " : ");
+//        public void display(){
+//                System.out.print(x + " " + y + " : ");
 //        }
 //
-//public static void main(String[] args) {
-//        MyField m1 = new MyField();
-//        m1.x = 100;
-//        m1.y = 200;
-//        MyField m2 = new MyField();
-//        m2.doStuff(m1.x, m1.y);
-//        m1.display();
-//        m2.display();
+//        public static void main(String[] args) {
+//                MyField2 m1 = new MyField2();
+//                m1.x = 100;
+//                m1.y = 200;
+//                MyField2 m2 = new MyField2();
+//                m2.doStuff(m1.x, m1.y);
+//                m1.display();
+//                m2.display();
 //        }
-//        }
+//}
 
 /*
 What's the result?
@@ -37,7 +37,7 @@ Correct answer: A
 
 class MyField {
         int x;
-        int y;
+        int y; //
         public void doStuff(int x, int y){
                this.x = x;
                 y = this.y;

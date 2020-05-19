@@ -9,7 +9,7 @@ public class Q21_22 {
 			System.out.print(arr[i]+" ");
 			i++;
 		}while(i<arr.length+1);
-		
+	//ArrayIndexOutOfBoundsException
 		
 		//Q_22:
 		/*

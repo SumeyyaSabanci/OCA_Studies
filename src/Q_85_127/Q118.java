@@ -20,9 +20,9 @@ public class Q118 {
        //Float flt3=100.00;// (Wrapple class da F i kullanmak gerekiyor. Primitive de kullanmak gerekmiyor.)
 //D.
          double y1=203.22;
-       //  float flt4=y1;
+      //  float flt4=y1;
 //E.
         int y2=100;
         float flt5=(float)y2;
-    }
+}
 }

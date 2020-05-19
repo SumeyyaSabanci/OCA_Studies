@@ -52,7 +52,7 @@ public class Q157 {
 /*
 aynı kitabın diğer basımında soru aşağıdaki gibi değiştirilmiş (C ve D şıkkı farklı yazılmış)
 bu yazıma göre doğru cevap: D E
-
+*/
 //A
 	abstract class A3 {
 		private static int i;
@@ -66,23 +66,23 @@ bu yazıma göre doğru cevap: D E
 	}
 
 	// C
-		 public class A2 {
-			 private static int i;
-			 private A2() {}
-		}
+//		 public class A2 {
+//			 private static int i;
+//			 private A2() {}
+//		}
 
 
 	//D
-		class A4{
-			protected static final int i; //i assign yapilmamis
-			private A4() { 	}
-		}
+//		class A4{
+//			protected static final int i; //i assign yapilmamis
+//			private A4() { 	}
+//		}
+
 
 	//E
 
-		final abstract class A5{
-			protected static int i;
-			void doStuff() {}
-			abstract void doIt();
-		}
- */
+//		final abstract class A5{
+//			protected static int i;
+//			void doStuff() {}
+//			abstract void doIt();
+//		}

@@ -17,7 +17,7 @@ public class Q48 {
 
 
 //Canvasta:
-
+//
 //        ArrayList<String> colors = new ArrayList<>();
 //        colors.add("green");
 //        colors.add("red");

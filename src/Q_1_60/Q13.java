@@ -7,6 +7,10 @@ public class Q13 {
         System.out.println("Result A " + 0 +1);
         System.out.println("Result B " + (1) + (2));
 
+    //second version
+//        System.out.println("Result A " + 0 +1);
+//        System.out.println("Result B " + (1+2));
+
         //A
         //  Result A 01
         //  Result B 3

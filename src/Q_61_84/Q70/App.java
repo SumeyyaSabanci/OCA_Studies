@@ -5,12 +5,12 @@ public class App {
         String str1 = "Java";
         String str2 = new String("java");
         //line 1
-//        if (str2.equals(str1.toLowerCase()))
-      /*  {
-            System.out.println("Equal");
-        }else {
-            System.out.println("Not Equal");
-        } */
+//       if (str2.equals(str1.toLowerCase()))
+//       {
+//            System.out.println("Equal");
+//        }else {
+//            System.out.println("Not Equal");
+//        }
 
     }
 }

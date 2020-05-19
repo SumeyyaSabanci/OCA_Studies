@@ -1,15 +1,17 @@
 package Q_1_60.Q6;
 
 
+import java.io.IOException;
+
 class X {
-    public void printFileContent() {
+    public void printFileContent() throws IOException {
         /*code goes here */
-        throw  new IOException();
+  //      throw  new IOException();
     }
 }
 
 public class Test8 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
        X xobj = new X();
         xobj.printFileContent();
     }

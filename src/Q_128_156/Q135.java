@@ -3,10 +3,10 @@ package Q_128_156;
 public class Q135 {
 }
 
-abstract class Toy {
-
-        int price;
-        //line n1
+//abstract class Toy {
+//
+//        int price;
+//        //line n1
 
 
  //Which three code fragments are valid at line n1?
@@ -18,7 +18,7 @@ abstract class Toy {
 //    }
 
 ////    B.
-// Toy getToy(){  //
+// final Toy getToy(){  //
 //    return new Toy();
 //}
 ////    C.
@@ -29,7 +29,7 @@ abstract class Toy {
 //    public int calculatePrice() {
 //        return price;
 //    }
-    }
+//    }
 ////    E.
 //    public abstract int computeDiscount();
 //}
@@ -43,11 +43,14 @@ E. Option E
 
 Answer: ADE
 
-version 2
+version 2*/
 abstract class Toy{
 
         int price;
         //line n1
+//        public abstract  Toy getToy(){
+//            return new Toy();
+//        }
     }
    // Which three code fragments are valid at line n1?
 
@@ -63,7 +66,7 @@ abstract class Toy{
     return price;
     }
     E. public abstract int computeDiscount();
-
+/*
 A. Option A
 B. Option B
 C. Option C

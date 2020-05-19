@@ -20,7 +20,7 @@ public class Q53 {
 //    // A
 //        if (qty >= 90) { discount = 0.5; }
 //        if (qty > 80 & qty < 90){discount = 0.2;}
-//
+
 //    // B
 //        discount = (qty >= 90) ? 0.5 : 0;
 //        discount = (qty >= 80) ? 0.2 : 0;

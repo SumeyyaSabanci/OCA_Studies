@@ -1,7 +1,7 @@
 package Q_1_60;
 
 public class Q17 {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
         int [] [] arr = new int [2][4];
         arr[0] = new int [] {1, 3, 5, 7};
@@ -15,6 +15,24 @@ public class Q17 {
         }
     }
 }
+//1 3 5 7
+//1 3
+
+    //second version
+//       int[][] arr = new int[2][4];
+//       arr[0] = new int[]{1, 3, 7};
+//       arr[1] = new int[]{1, 3};
+//       for (int[] a : arr) {
+//           for (int i : a) {
+//               System.out.println(i + " ");
+//
+//           }
+//           System.out.println();
+//       }
+//   }
+//}
+//output: 1 3 5 7
+//        1 3
 /**
  What is the result?
  A. Compilation fails
@@ -34,25 +52,4 @@ public class Q17 {
  E. Option E
  Answer: E
 
- Explanation:
-        Your code:
-
- public class Q17 {
- public static void main(String[] args) {
-
- int [] [] arr = new int [2][4];
- arr[0] = new int [] {1, 3, 7};
- arr [1] = new int [] {1, 3};
- for (int[] a : arr) {
- for (int i : a){
- System.out.println(i + " ");
-
- }
- System.out.println();
- }
- }
- }
-
- output: 1 3 5 7
-         1 3
  */

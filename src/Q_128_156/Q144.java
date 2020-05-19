@@ -24,6 +24,8 @@ public static void main(String[] args) {
             String str= " ";
             str.trim();
             System.out.print(str.equals("")+" " +str.isEmpty());
+   }
+           }
 
 //             What is the result?
 //             A True true
@@ -32,7 +34,6 @@ public static void main(String[] args) {
 //             D. false true
 //
 //             Answer?
-        }
-}
+
 
 

@@ -2,12 +2,12 @@ package Q_1_60;
 
 public class Q16 {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
 
         String[][] arr = {{"A", "B", "C"}, {"D", "E"}};
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.println(arr[i][j] + " ");
+                System.out.print(arr[i][j] + " ");
                 if (arr[i][j].equals("B")) {
                     continue;                  //continue nun altina bisey yazamayiz yazarsak compile error verir
                 }
@@ -15,10 +15,12 @@ public class Q16 {
             continue;
         }
     }
+    // A B C D E
+
 //        String [] [] arr = {{ "A", "B", "C"},  {"D", "E"}};
 //        for (int i = 0; i < arr.length; i++) {
 //            for ( int j = 0; j< arr[i].length; j++) {
-//                System.out.println(arr[i][j] + " ");
+//                System.out.print(arr[i][j] + " ");
 //                if ( arr[i][j].equals("B")) {
 //                   break;
 //                }
@@ -26,11 +28,12 @@ public class Q16 {
 //            continue;
 //        }
 //    }
+//A B D E
 
 //    String [] [] arr = {{ "A", "B", "C"},  {"D", "E"}};
 //        for (int i = 0; i < arr.length; i++) {
 //        for ( int j = 0; j< arr[i].length; j++) {
-//            System.out.println(arr[i][j] + " ");
+//            System.out.print(arr[i][j] + " ");
 //            if ( arr[i][j].equals("B")) {
 //                continue;
 //            }
@@ -38,24 +41,35 @@ public class Q16 {
 //        break;
 //    }
 //}
+//A B C
 
-
-//    String [] [] arr = {{ "A", "B", "C"},  {"D", "E"}};
+//        String[][] arr = {{"A", "B", "C"}, {"D", "E"}};
 //        for (int i = 0; i < arr.length; i++) {
-//        for ( int j = 0; j< arr[i].length; j++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                if (arr[i][j].equals("B")) {
+//                    return;
+//                    System.out.println(arr[i][j] + " ");
+//                }
 //
-//        if ( arr[i][j].equals("B")) {
-//        return;
-//        System.out.println(arr[i][j] + " ");
+//            }
+//            continue;
 //        }
-//
-//        }
-//        continue;
-//        }
-//        }
-//When we run it prints A B C D E
+//    }
 
-// what is the result?
+//Compile fail
+
+//        String[][] arr = {{"A", "B", "C"}, {"D", "E"}};
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                System.out.print(arr[i][j] + " ");
+//                if (arr[i][j].equals("B")) {
+//                    break;
+//                }
+//            }
+//            break;
+//        }
+//    }
+// A B
 /**
 
  A. A B C

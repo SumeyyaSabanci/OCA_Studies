@@ -9,7 +9,7 @@ public class Q91 {
 //        Long s4 = (long) s1 + s2;     //line n2
 //        System.out.println("Sum is " + s4);
 //    }
-}
+//}
 
 //What is the result?
 //A. Sum is 600
@@ -33,6 +33,6 @@ public class Q91 {
 //
 //        System.out.println("Sum is " + s4);
 //    }
-//}
+}
 
 //String ile Long un yerleri degismis cevap: Stringli olan Line N2

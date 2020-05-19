@@ -2,8 +2,8 @@ package Q_157_181.Q162;
 
 public class App {
 
-//	int count;
-//
+	int count;
+
 //	public static void displayMsg() {
 //		count++;     // line n1
 //		System.out.println("Welcome " + "Visit Count: " + count); // line n2
@@ -28,15 +28,15 @@ public class App {
 
 
 // canvasta aşağıdaki şekilde yazılmış. sonuç aynı.
-/*
-public static void displayMsg () {
-	count++;     // line n1
-	System.out.println("Welcome "+"Visit Count: "+count); // line n2
-}
-public static void main(String[] args) {
-	displayMsg();   // line n3
-	displayMsg();   // line n4
 
-}
- */
+//public static void displayMsg () {
+//	count++;     // line n1
+//	System.out.println("Welcome "+"Visit Count: "+count); // line n2
+//}
+//public static void main(String[] args) {
+//	displayMsg();   // line n3
+//	displayMsg();   // line n4
+//
+//}
+//}
 

@@ -3,14 +3,15 @@ package Q_1_60;
 public class Q15 {
 }
 
-//class Test {
-//    public static void main(String[] args) {
-//        //insert code here    //line 3
-//        //line 4     array [0]= 10;
-//        //line 5     array [1]= 20;
-//        //line 6     System.out.println(array[0] + " : " + array[1] );
-//    }
-//}
+class Test10 {
+    public static void main(String[] args) {
+        //insert code here    //line 3
+
+//        array [0]= 10;
+//        array [1]= 20;
+//        System.out.println(array[0] + " : " + array[1] );
+    }
+}
 //
 ////Which code fragment, when inserted at line 3, enables the code to print 10:20?
 //

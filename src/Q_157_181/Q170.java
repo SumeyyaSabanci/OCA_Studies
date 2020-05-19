@@ -3,7 +3,7 @@ package Q_157_181;
 
  class MyString {
     String msg;
-    int a;
+
 //    public String test(){
 //
 //        return "test";

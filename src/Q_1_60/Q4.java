@@ -1,16 +1,15 @@
 package Q_1_60;
-
 public class Q4 {
     public static void main(String[] args) {
-//        int iVar = 100;
-//        float fVar = 100.100f;
-//        double dVar = 123;
-        //  fVar = iVar;
-        //  iVar = fVar;
-        //  fVar = dVar;
-        //  dVar = fVar;
-        //  iVar = dVar;
-        //  dVar = iVar;
+        int iVar = 100;
+        float fVar = 100.100f;
+        double dVar = 123;
+//          fVar = iVar;
+//          iVar = fVar;
+//          fVar = dVar;
+//          dVar = fVar;
+//          iVar = dVar;
+//          dVar = iVar;
         /*
         Second Version
         the question was same but number of lines was changed.

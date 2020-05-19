@@ -27,6 +27,6 @@ C.	Call the setArea method at the end of the setLength method.
 D.	Call the setArea method at the beginning of the setLength method.
 E.	Change the setArea method to private.
 F.	Change the area field to public.
-Answer: AE
+Answer: AC
 
  */

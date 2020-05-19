@@ -1,6 +1,14 @@
 package Q_1_60;
 
 public class Q23 {
+	int sum;
+	int b;
+
+	public int sum(){
+		return sum;
+	}
+
+
 
 	public static void main(String[] args) {
 		// given the code fragment

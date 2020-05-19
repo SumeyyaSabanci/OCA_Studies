@@ -1,40 +1,42 @@
 package Q_85_127;
 
-public class Q86{}
+public class Q86 {
+}
 
 
-    class Vehicle {
-        int x;
+class Vehicle {
+    int x;
 
-        Vehicle() {
-            this(10);// line n1
-        }
-
-        Vehicle(int x) {
-            this.x = x;
-        }
+    Vehicle() {
+        this(10);// line n1
     }
-              class Car extends Vehicle {
-                  int y;
 
-                  Car() {
-                      super(10); // line n2
-                  }
+    Vehicle(int x) {
+        this.x = x;
+    }
+}
 
-                  Car(int y) {
-                      super(y);
-                      this.y = y;
-                  }
+class Car extends Vehicle {
+    int y;
 
-                  public String toString() {
-                      return super.x + ":" + this.y;
-                  }
+    Car() {
+        super(10); // line n2
+    }
 
-                  public static void main(String[] args) {
-                      Vehicle y = new Car(20);
-                      System.out.println(y);
-                  }
-              }
+    Car(int y) {
+        super(y);
+        this.y = y;
+    }
+
+    public String toString() {
+        return super.x + ":" + this.y;
+    }
+
+    public static void main(String[] args) {
+        Vehicle y = new Car(20);
+        System.out.println(y);
+    }
+}
 
 //What is the result?
 //A. Compilation fails at line n2.

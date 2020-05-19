@@ -1,7 +1,10 @@
 package Q_85_127;
+public class Q95{
 
-          //Base.java:
-//    class Base{
+}
+//Q125 similar
+ //Base.java:
+//class Base{
 //            public void test(){
 //        System.out.println("Base ");
 //        }
@@ -27,7 +30,7 @@ package Q_85_127;
 //        b1.test();
 //        b4.test();
 //    }
-
+//
 //}
 
 //What is the result?

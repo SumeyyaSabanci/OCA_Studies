@@ -17,6 +17,7 @@ public class Q56 {
         catch (Exception e){
             System.out.println("Invalid Name");
         }
+
         /*
         A
     omas

@@ -5,11 +5,11 @@ public class Q24 {
 	public static void main(String[] args) {
 		// Given the code fragment
 		String[] strs=new String[2];
-		System.out.println(strs.length);
 		int idx=0;
-		strs[0] = "A";
-		System.out.println(strs[0].concat("element "));
-		//we can not concat if array is null
+//		strs[0] = "A";
+//		strs[1]="B";
+	//	System.out.println(strs[0].concat("element "));  //we can not concat if array is null
+
 
 		for (String s : strs) {
 			strs[idx].concat("element "+idx);

@@ -15,10 +15,13 @@ public class Q168 {
 //	}
 
 //soruda bu sekilde:
-		String[] arr= {"Hi", "How", "Are","You"};
+		String[] arr= {"Hiw", "Hw", "Ae","You"};
 		List<String> arrList= new ArrayList<>(Arrays.asList(arr));
-		if (arrList.removeIf((String s) ->{System.out.println(s + "removed");
-			return s.length()<=2;})){
+		if (arrList.removeIf((String s) ->{ return s.length()<=2;}))
+		{
+			System.out.println("removed");
+		}else{
+			System.out.println("not removed");
 		}
 
 		//bizim yazdigimiz

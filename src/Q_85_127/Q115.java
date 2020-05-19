@@ -6,8 +6,8 @@ public class Q115 {
 class Equal {
     public static void main(String[] args) {
         String str1 = "Java";
-        String[] str2 = {"J", "a", "v", "a"};
-        String str3 = "";
+      String[] str2 = {"J", "a", "v", "a"};
+        String str3 = "Java";
         for (String str : str2) {
             str3 = str3 + str;
         }

@@ -2,7 +2,7 @@ package Q_85_127;
 
 public class Q88 {
     public static void main(String[] args) {
-
+//
 //        int wd = 0;
 //        String days[] = {"sun", "mon", "wed", "sat"};
 //        for (String s : days) {
@@ -20,7 +20,7 @@ public class Q88 {
 //        }
 //        System.out.println(wd);
 //    }
-
+//}
 //What is the result?
 //A. 3
 //B. 0

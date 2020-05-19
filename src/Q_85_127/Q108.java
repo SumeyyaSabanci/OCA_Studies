@@ -16,7 +16,7 @@ public class Q108 {
         Employee manager = new Manager();
         Employee director = new Director();
         // n1line
-//           director.stockOptions = 1_000;
+//          director.stockOptions = 1_000;
      	     employee.salary = 50_000;
 //      	 manager.budget = 1_000_000;
 //           manager.stockOption = 500;

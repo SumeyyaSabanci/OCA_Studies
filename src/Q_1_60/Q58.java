@@ -6,9 +6,8 @@ public class Q58 {
 
     class MainTest{
         public static void main(String[] args) {
-            String [] abc = new String[1];
-            abc[0] = "1 2 3";
-            System.out.println("String main "+ abc[0]);
+            System.out.println("String main "+ args[0]);
+
 
         }
 
@@ -23,7 +22,7 @@ public class Q58 {
     B. An exception is thrown at runtime
     C. String main 1 2 3
     D. String main 123
-    Answer: A
+    Answer: C
         Gives ArrayIndexOutOfBoundsException
         */
 

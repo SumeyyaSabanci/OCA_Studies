@@ -1,18 +1,22 @@
 package Q_61_84.Q75.clothing.pants;
 
 // line n1
-//import Q_61_84.Q75.clothing.Shirt;
-import Q_61_84.Q75.clothing.Shirt;
 
-import static Q_61_84.Q75.clothing.Shirt.getColor;
+
+//import static Q_61_84.Q75.clothing.Shirt.getColor; //C sikki
+//import Q_61_84.Q75.clothing.Shirt; //A sikki
+
+
+
 
 public class Jeans {
     public void matchShirt(){
         // line n2
-        String color = Shirt.getColor();
-        if(color.equals("Green")){
-            System.out.print("Fit");
-        }
+       // String color = getColor(); //C sikki
+      //  String color = Shirt.getColor();  //A sikki
+//        if(color.equals("Green")){
+//            System.out.print("Fit");
+//        }
     }
 
     public static void main(String[] args) {

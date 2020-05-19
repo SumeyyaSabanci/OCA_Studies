@@ -17,11 +17,11 @@ abstract class Book implements Readable {   //line n2
     public void readBook(){
         System.out.println("Read Book");
     }
-}
-class EBook extends Book {       //line n3
-    public void download(){
 
-    }
+}
+
+class EBook extends Book {       //line n3
+    public void download(){}
     public void readBook() {
         System.out.println("Read E-Book");
     }
