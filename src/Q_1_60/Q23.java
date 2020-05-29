@@ -1,12 +1,12 @@
 package Q_1_60;
 
 public class Q23 {
-	int sum;
-	int b;
-
-	public int sum(){
-		return sum;
-	}
+//	int sum;
+//	int b;
+//
+//	public int sum(){
+//		return sum;
+//	}
 
 
 

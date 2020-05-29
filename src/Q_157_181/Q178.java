@@ -13,7 +13,7 @@ public class Q178 {
             System.out.println("Invalid calculation");
         //   ans = 0;
         }
-     //   System.out.println("Answer = "+ ans);           //line2
+       // System.out.println("Answer = "+ ans);           //line2
     }
 }
 

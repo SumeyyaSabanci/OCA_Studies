@@ -49,7 +49,7 @@ public static void main(String[] args) {
        s.length() <=2)) {
         System.out.println("removed");
     }
-    System.out.println(Arrays.asList(arrList));
+ //   System.out.println(Arrays.asList(arrList));
 }
 }
 //What is the result?

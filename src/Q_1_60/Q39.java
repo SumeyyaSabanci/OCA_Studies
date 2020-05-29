@@ -16,17 +16,17 @@ public class Q39 {
 //            }
 //        }
 ////B
-//        for(int index = 0; index <2; ++index){
-//            for(int idx = 0; idx <index; ++idx){
-//                System.out.print(shirts[index][idx]+":");
+////        for(int index = 0; index <2; ++index){
+////            for(int idx = 0; idx <index; ++idx){
+////                System.out.print(shirts[index][idx]+":");
+////            }
+////        }
+////C
+//        for(String [] c : shirts){
+//            for (String s : c){
+//                System.out.print(s+":");
 //            }
 //        }
-//C
-        for(String [] c : shirts){
-            for (String s : c){
-                System.out.print(s+":");
-            }
-        }
 ////D
 //        for(int index = 0; index <=2; ){
 //            for(int idx = 0; idx <=2; ){

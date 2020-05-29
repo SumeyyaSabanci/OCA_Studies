@@ -17,7 +17,7 @@ public class Q135 {
 //  //  code goes here
 //    }
 
-////    B.
+//    B.
 // final Toy getToy(){  //
 //    return new Toy();
 //}
@@ -44,14 +44,14 @@ E. Option E
 Answer: ADE
 
 version 2*/
-abstract class Toy{
-
-        int price;
-        //line n1
-//        public abstract  Toy getToy(){
-//            return new Toy();
-//        }
-    }
+//abstract class Toy{
+//
+//        int price;
+//        //line n1
+////        public abstract  Toy getToy(){
+////            return new Toy();
+////        }
+//   }
    // Which three code fragments are valid at line n1?
 
     /*

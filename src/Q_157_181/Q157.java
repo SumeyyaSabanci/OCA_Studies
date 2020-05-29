@@ -35,10 +35,10 @@ public class Q157 {
 
 
 	//D
-	class A4 {
-    protected static final int i =10 ;
-    private A4() { }
-}
+//	class A4 {
+//    protected static final int i =10 ;
+//    private A4() { }
+//}
 
 	//E -->  class can be final or abstract, not both of them
 //	final abstract class A5 {
@@ -54,16 +54,16 @@ aynı kitabın diğer basımında soru aşağıdaki gibi değiştirilmiş (C ve 
 bu yazıma göre doğru cevap: D E
 */
 //A
-	abstract class A3 {
-		private static int i;
-		public void doStuff() { }
-		public A3(){ }
-	}
+//	abstract class A3 {
+//		private static int i;
+//		public void doStuff() { }
+//		public A3(){ }
+//	}
 
 	//B
-	final class A1{
-		public A1(){  	}
-	}
+//	final class A1{
+//		public A1(){  	}
+//	}
 
 	// C
 //		 public class A2 {

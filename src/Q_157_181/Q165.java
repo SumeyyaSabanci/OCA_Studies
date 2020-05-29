@@ -36,13 +36,13 @@ public class Q165 {
 // daha önceki basımda sondaki x yerine c var;
 
 
-		int x = 100;
-		int a = x++;
-		int b = ++x;
-		int c = x++;
-		int d = (a < b) ? (a < c) ? a : (b < c) ? b : c : x;
-
-		System.out.println(d);
+//		int x = 100;
+//		int a = x++;
+//		int b = ++x;
+//		int c = x++;
+//		int d = (a < b) ? (a < c) ? a : (b < c) ? b : c : x;
+//
+//		System.out.println(d);
 
 //	boyle olursa soru cevap "Compilation fails" olur
 //	? ve : sayıları eşit olmalı dikkat et.

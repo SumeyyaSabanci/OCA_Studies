@@ -20,8 +20,8 @@ class C1 extends C2 implements I {
             C2 obj1 = new C1();
             I obj2 = new C1();
 
-//            C2 s = obj2;  //class a interface in objectini assign ettis o yuzden hata verir
-//            I t = obj1;   //class a class i,  interface e interface i assign yapabiliriz
+//            C2 s = obj2;  //class'a interface in objectini assign ettis o yuzden hata verir
+//            I t = obj1;   //class'a class i,  interface e interface i assign yapabiliriz
 
 //            t.displayI();
 //            s.displayC2();
