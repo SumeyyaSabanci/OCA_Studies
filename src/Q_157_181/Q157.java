@@ -11,7 +11,7 @@ public class Q157 {
 
 
 //
-	//A 
+    //A
 //	abstract class A3 {
 //		private static int i;
 //		public void doStuff() {}
@@ -19,19 +19,20 @@ public class Q157 {
 //
 //	}
 
-	//B
+    //B
 //	final class A1 {
 //		public A1() {
 //		}
 //	}
 
-	// C --> We can not declare top level class as private. Java allows only public and
-	//       default modifier for top level classes in java. Inner classes can be private.
+    // C --> We can not declare top level class as private. Java allows only public and
+    //       default modifier for top level classes in java. Inner classes can be private.
 
-//	private class A2 {
-//		private static int i;
-//		private A2() { }
-//	}
+//    private class A2 {
+//        private static int i;
+//        private A2() {
+//        }
+//    }
 
 
 	//D
@@ -79,8 +80,7 @@ bu yazıma göre doğru cevap: D E
 //		}
 
 
-	//E
-
+//E
 //		final abstract class A5{
 //			protected static int i;
 //			void doStuff() {}

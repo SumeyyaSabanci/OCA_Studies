@@ -12,6 +12,7 @@ public class Q155 {
 
 		
 		points.add(null);
+		Integer a = 1;
 		points.remove(1);
 
 		points.remove(null);

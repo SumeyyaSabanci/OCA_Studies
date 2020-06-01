@@ -49,14 +49,14 @@ interface Readable{
         public void setBookMark();
     }
     abstract class  Book implements  Readable {    //line n1
-        public void readBook() {  }// line n2
+        public void readBook() {} // line n2
+
 
     }
        class EBook extends  Book {    //line n3
             public void readBook() {
-             //line 4
             }
-
+           //line 4
            public void setBookMark(){}
         }
 

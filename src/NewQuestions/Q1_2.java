@@ -13,5 +13,6 @@ public class Q1_2 {
 //        }else{
 //            System.out.println("nothing");
 //        }
+
     }
 }
