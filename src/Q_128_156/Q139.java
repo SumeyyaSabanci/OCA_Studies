@@ -11,7 +11,6 @@ class Product{
         public void updatePrice(Product product, double price) {
             price = price * 2;
             product.price = product.price + price;
-
         }
 
         public static void main(String[] args) {
@@ -22,7 +21,6 @@ class Product{
             Test8 t = new Test8();
             t.updatePrice(prt, newPrice);
             System.out.println(prt.price + "  :  " + newPrice);
-
         }
     }
 
